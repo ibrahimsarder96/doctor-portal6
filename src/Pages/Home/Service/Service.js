@@ -8,7 +8,7 @@ const Service = ({service}) => {
     </figure>
     <div className="card-body items-center text-center">
       <h2 className="card-title text-accent">{service.name}</h2>
-      <p className='text-accent'>{service.description}</p>
+      <p className='text-accent text-justify'>{service.description}</p>
     </div>
   </div>
   );
