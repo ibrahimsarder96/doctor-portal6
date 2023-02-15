@@ -6,8 +6,8 @@ const AppointmentBanner = () => {
   // const [selectedData, setSelectedData] = (new Date());
   return (
     <header>
-      <div className="hero">
-  <div className="hero-content flex-col lg:flex-row-reverse">
+    <div className="hero">
+    <div className="hero-content flex-col lg:flex-row-reverse">
     <img src={chair} alt='' className="max-w-sm rounded-lg shadow-2xl" />
     <div>
     <DayPicker
