@@ -1,7 +1,7 @@
 import React from 'react';
 import chair from '../../../assets/images/chair.png';
 import { DayPicker } from 'react-day-picker';
-import 'react-day-picker/dist/style.css';
+import { format } from 'date-fns';
 const AppointmentBanner = () => {
   const [selectedData, setSelectedData] = (new Date());
   return (
@@ -11,9 +11,9 @@ const AppointmentBanner = () => {
     <img src={chair} alt='' className="max-w-sm rounded-lg shadow-2xl" />
     <div>
     <DayPicker
-      // mode="single"
-      // selected={selectedData}
-      // onSelect={setSelectedData}
+      mode="single"
+      selected={selectedData}
+      onSelect={setSelectedData}
       
     />
     </div>
